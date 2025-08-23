@@ -12,6 +12,9 @@
   gap: 32px;
   list-style: circle;
 }
+.header__links-list-item {
+  padding: 0 0 4px 1px;
+}
 .header__links-list-item_no-bullit {
   list-style: none;
 }
@@ -37,6 +40,7 @@
 
 .header__address {
   justify-self: end;
+  padding: 0 0 4px 0;
 }
 
 .cover {
