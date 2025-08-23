@@ -83,7 +83,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 20px;
   padding-top: 106px;
 }
 .cover__description-text {
@@ -119,9 +118,10 @@
   display: flex;
   gap: 25px;
   list-style: none;
+  flex-wrap: wrap;
 }
 .lots__card-list-item {
-  width: 32%;
+  flex: 1 1 334px;
   min-height: 596px;
 }
 .card-link {
@@ -195,6 +195,9 @@
   font-weight: 700;
   font-size: 40px;
   text-transform: uppercase;
+}
+.about__column {
+  padding: 2px 0 0 4px;
 }
 .about__text {
   display: flex;
