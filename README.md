@@ -1,1 +1,1 @@
-https://github.com/s-minav/ono-tebe-nado-fd
+https://github.com/s-minav/ono-tebe-nado
